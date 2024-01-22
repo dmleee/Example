@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head><title>점핑볼 만들기</title>
+        <style>
+           @keyframes bounce {from, to{bottom: 0px;
+        animation-timing-function: ease-out;}
+    50% {bottom: 200px; animation-timing-function: ease-in;}}
+    div {position: absolute; width: 20px; height: 20px; border-radius: 10px;
+    animation-name: bounce; animation-iteration-count: infinite;}
+    #b1 {left: 10px; background: red; animation-duration: 1s;}
+    #b2 {left: 50px; background: orange; animation-duration: 1s;}
+    #b3 {left: 90px; background: yellow; animation-duration: 1s;}
+    #b4 {left: 130px; background: green; animation-duration: 1s;}
+    #b5 {left: 170px; background: skyblue; animation-duration: 1s;}
+    #b6 {left: 210px; background: navy; animation-duration: 1s;} 
+    #b7 {left: 250px; background: purple; animation-duration: 1s;}
+        </style>
+        <meta charset="utf-8"><head>
+            <body>
+                <div id="b1"></div>
+                <div id="b2"></div>
+                <div id="b3"></div>
+                <div id="b4"></div>
+                <div id="b5"></div>
+                <div id="b6"></div>
+                <div id="b7"></div>
+            </body>
+            </head>
